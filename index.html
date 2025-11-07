@@ -354,7 +354,7 @@
     <!-- footer started -->
     <section class="footer bg-linear-to-r from-red-100 to-orange-200">
       <div class="max-w-7xl px-16 mx-auto">
-        <div class="flex justify-between my-20">
+        <div class="lg:flex md:flex justify-between py-10">
           <div><img src="./images/cup.png" alt="" /></div>
           <div class="flex items-center space-x-4 lg:space-x-8">
             <p class="text-black">Ready to get started?</p>
@@ -422,13 +422,38 @@
             </ul>
           </div>
           <!-- coloumn-4 -->
-          <div class="">
-            <h1></h1>
+          <div class="flex flex-col space-y-4">
+            <h1 class="text-xl font-semibold">
+              Subscribe to our<br />
+              newsletter
+            </h1>
             <!-- email -->
-            <div></div>
+            <div class="flex space-y-2">
+              <input
+                placeholder="Email Address"
+                type="text"
+                class="border-b-1 border-black bg-transparent outline-none w-2/5"
+              />
+              <div class="">
+                <div
+                  class="bg-red-600 rounded-full h-6 w-6 flex items-center justify-center m-2"
+                >
+                  <i
+                    class="fa-solid fa-chevron-right text-white cursor-pointer text-sm"
+                  ></i>
+                </div>
+              </div>
+            </div>
             <!-- iconic link -->
-            <div></div>
+            <div class="space-x-2">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
           </div>
+        </div>
+        <div class="text-center py-3">
+          <p>© 2027 UIDesign.to - All rights reserved.</p>
         </div>
       </div>
     </section>
